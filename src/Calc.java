@@ -73,22 +73,7 @@ class Calc extends JFrame
 
             }
         });
-        minus.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
 
-                //Берем значение вводимое пользователем
-                String first1 = first.getText();
-                int a = Integer.parseInt (first1);
-                System.out.println(a);
-                String second1=second.getText();
-                int b = Integer.parseInt(second1);
-                int c=a-b;
-                String c1 = String.valueOf(c);
-                otvet.setText(c1);
-
-            }
-        });
 
 
 
